@@ -26,7 +26,7 @@ interface InstalledSkill {
 
 export default function DashboardPage() {
   const navigate = useNavigate();
-  const [user, setUser] = useState<any>(null);
+  const [_user, setUser] = useState<any>(null);
   const [agent, setAgent] = useState<Agent | null>(null);
   const [installedSkills, setInstalledSkills] = useState<InstalledSkill[]>([]);
   const [availableSkills, setAvailableSkills] = useState<Skill[]>([]);
